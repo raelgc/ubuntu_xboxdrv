@@ -1,9 +1,10 @@
-ubuntu_xboxdrv
-==============
+Additional setup for xboxdrv
+----------------------------
 
-Additional setup for xboxdrv under Ubuntu (14.04).
+This package contains additional configuration to make [`xboxdrv`](http://pingus.seul.org/~grumbel/xboxdrv/) get properly configured and running 
+under Ubuntu (14.04).
 
-This package creates a proper daemon for xboxdrv in Ubuntu, and add a "Joysticks" entry into System Settings.
+Additionally, a "Joysticks" entry is created into System Settings panel.
 
 # Install
 
