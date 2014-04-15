@@ -1,10 +1,9 @@
 Additional setup for xboxdrv
 ----------------------------
 
-This package contains additional configuration to make [`xboxdrv`](http://pingus.seul.org/~grumbel/xboxdrv/) get properly configured and running 
-under Ubuntu (14.04).
+This package contains additional configuration to make [`xboxdrv`](http://pingus.seul.org/~grumbel/xboxdrv/) get properly configured and running under Ubuntu (14.04).
 
-Additionally, a "Joysticks" entry is created into System Settings panel.
+At install, it cleanups broken configurations, mark xpad as conflict, and additionally, a "Joysticks" entry is created into System Settings panel.
 
 # Install
 
