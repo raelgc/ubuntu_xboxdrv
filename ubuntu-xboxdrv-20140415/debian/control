@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Rael G.C. <rael.gc@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://launchpad.net/~rael-gc/+archive/ubuntu-xboxdrv
 #Vcs-Git: git://git.debian.org/collab-maint/ubuntu-xboxdrv.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/ubuntu-xboxdrv.git;a=summary
 
