@@ -10,7 +10,7 @@ This package creates a proper daemon for xboxdrv in Ubuntu, and add a "Joysticks
 If you want just use this package:
 
 ```term
-sudo apt-add-repository -y ppa:rael-gc/ubuntu-xbxdrv
+sudo apt-add-repository -y ppa:rael-gc/ubuntu-xboxdrv
 sudo apt-get update
 sudo apt-get install ubuntu-xbobxdrv
 ```
