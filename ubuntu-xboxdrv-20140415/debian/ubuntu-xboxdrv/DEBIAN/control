@@ -1,0 +1,16 @@
+Package: ubuntu-xboxdrv
+Version: 20140415-1
+Architecture: all
+Maintainer: Rael G.C. <rael.gc@gmail.com>
+Installed-Size: 43
+Depends: xboxdrv, jstest-gtk
+Breaks: xpad
+Section: utils
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Creates a xboxdrv deaemon and Joysticks in System Settings
+ xboxdrv is installed in Ubuntu without proper daemon configuration.
+ This package creates a proper daemon and an entry named "Joystick"
+ under Unity System Settings.
+ Additionally this package try remove xpad, which always has conflict
+ with xboxdrv.
