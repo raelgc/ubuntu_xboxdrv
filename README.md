@@ -5,7 +5,7 @@ This package contains additional configuration to make [`xboxdrv`](http://pingus
 
 At install, it cleanups broken configurations, mark xpad as conflict, and additionally, a "Joysticks" entry is created into System Settings panel.
 
-# Install
+## Install
 
 If you want just use this package:
 
@@ -15,9 +15,11 @@ sudo apt-get update
 sudo apt-get install ubuntu-xbobxdrv
 ```
 
-# Build Instructions
+## Build Instructions
 
 This is not required to use this package.
+
+These instructions are supposed to debug or compile the package from source.
 
 Fist clone this repo (dooh).
 
