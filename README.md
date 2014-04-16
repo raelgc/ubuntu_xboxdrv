@@ -40,3 +40,9 @@ rm -Rf ../ubuntu-xboxdrv_*
 dh_make -s --indep --createorig --yes
 debuild -S -sa
 ```
+
+If you're trying to build the `.changes` file using the source code from Launchpad with your gpg key, use:
+
+```term
+debuild -S -rfakeroot -k<your_gpg_key_id>
+```
