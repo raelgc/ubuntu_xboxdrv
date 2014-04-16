@@ -1,7 +1,7 @@
 Ubuntu xboxdrv Integration
 ----------------------------
 
-This package will install [`xboxdrv`](http://pingus.seul.org/~grumbel/xboxdrv/) and get properly configured and running under Ubuntu (14.04).
+This package will install [`xboxdrv`](http://pingus.seul.org/~grumbel/xboxdrv/) and get it properly configured and running under Ubuntu (14.04).
 
 At install, it removes broken configurations, mark xpad as conflict (and stop it if necessary), create and start a daemon, and additionally, a "Joysticks" entry is created into System Settings panel.
 
