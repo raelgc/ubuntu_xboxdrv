@@ -1,0 +1,12 @@
+#! /bin/sh
+
+# Xboxdrv daemon suspend/resume
+
+case $1 in
+     suspend|suspend_hybrid|hibernate)
+	service xboxdrv stop
+        ;;
+     resume|thaw)
+	service xboxdrv restart
+        ;;
+esac
