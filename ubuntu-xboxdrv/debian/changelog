@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20140419-1) trusty; urgency=low
+
+  * Fixing resume/suspend script placement.
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 19 Apr 2014 00:01:34 -0300
+
 ubuntu-xboxdrv (20140418-1) trusty; urgency=low
 
   * At resume/suspend, restarting xboxdrv daemon.

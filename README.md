@@ -31,18 +31,18 @@ Fist clone this repo (dooh).
 To build a `.deb` from this repo:
 
 ```term
-cd ubuntu-xboxdrv-<version>
+cd ubuntu-xboxdrv
 rm -Rf ../ubuntu-xboxdrv_*
-dh_make -s --indep --createorig --yes
+dh_make -s --indep --createorig --yes -p ubuntu-xboxdrv_<version>
 debuild -us -uc
 ```
 
 To build the source package to send to launchpad:
 
 ```term
-cd ubuntu-xboxdrv-<version>
+cd ubuntu-xboxdrv
 rm -Rf ../ubuntu-xboxdrv_*
-dh_make -s --indep --createorig --yes
+dh_make -s --indep --createorig --yes -p ubuntu-xboxdrv_<version>
 debuild -S -sa
 ```
 
