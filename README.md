@@ -26,24 +26,36 @@ This is not required to use this package.
 
 These instructions are supposed to debug or compile the package from source.
 
-Fist clone this repo (dooh).
-
-To build a `.deb` from this repo:
+### 1 - Clone this repo
 
 ```term
-cd ubuntu-xboxdrv
-rm -Rf ../ubuntu-xboxdrv_*
-dh_make -s --indep --createorig --yes -p ubuntu-xboxdrv_<version>
-debuild -us -uc
+git clone git@github.com:raelgc/ubuntu_xboxdrv.git
 ```
 
-To build the source package to send to launchpad:
+### 2 - Enter project and remove old stuff
 
 ```term
 cd ubuntu-xboxdrv
 rm -Rf ../ubuntu-xboxdrv_*
+```
+### 3 - Create source for the packages
+
+```term
 dh_make -s --indep --createorig --yes -p ubuntu-xboxdrv_<version>
+```
+
+### 4 - Create `.changes` to send to Launchpad
+
+```term
 debuild -S -sa
+```
+
+### Troubleshooting
+
+If you want only create a `.deb` file, after follow step 1, 2, 3:
+
+```term
+debuild -us -uc
 ```
 
 If you're trying to build the `.changes` file using the source code from Launchpad with your gpg key, use:
