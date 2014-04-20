@@ -27,6 +27,14 @@ sudo apt-get update
 sudo apt-get install ubuntu-xbobxdrv
 ```
 
+## Start/stop the job
+
+The `xboxdrv` job is already started when the package is installed. But, if sor some reason, you need to restart it, run in terminal:
+
+```term
+sudo service xboxdrv restart
+```
+
 ## Build Instructions
 
 This is not required to use this package.
