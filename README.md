@@ -41,25 +41,25 @@ This is not required to use this package.
 
 These instructions are supposed to debug or compile the package from source.
 
-### 1 - Clone this repo
+**Step 1** - Clone this repo
 
 ```term
 git clone git@github.com:raelgc/ubuntu_xboxdrv.git
 ```
 
-### 2 - Enter project and remove old stuff
+**Step 2** - Enter project and remove old stuff
 
 ```term
 cd ubuntu-xboxdrv
 rm -Rf ../ubuntu-xboxdrv_*
 ```
-### 3 - Create source for the packages
+**Step 3** - Create source for the packages
 
 ```term
 dh_make -s --indep --createorig --yes -p ubuntu-xboxdrv_<version>
 ```
 
-### 4 - Create `.changes` to send to Launchpad
+**Step 4** - Create `.changes` to send to Launchpad
 
 ```term
 debuild -S -sa
