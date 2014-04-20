@@ -65,7 +65,7 @@ dh_make -s --indep --createorig --yes -p ubuntu-xboxdrv_<version>
 debuild -S -sa
 ```
 
-### Troubleshooting
+## Troubleshooting
 
 If you want only create a `.deb` file, after follow step 1, 2, 3:
 
