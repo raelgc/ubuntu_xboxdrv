@@ -1,9 +1,16 @@
 Ubuntu xboxdrv Integration
 ----------------------------
 
-This package will install [`xboxdrv`](http://pingus.seul.org/~grumbel/xboxdrv/) and get it properly configured and running under Ubuntu (14.04).
+While xpad (the included in kernel joystick driver) works accordingly with wired version of X360 controller, [`xboxdrv`](http://pingus.seul.org/~grumbel/xboxdrv/) offers proper support for wireless and XBox One versions.
 
-Over xboxdrv:
+And unlike the stock xpad kernel driver, xboxdrv provides a wide varity of configuration options: it allows you to simulate keyboard and mouse events, remap buttons and axes, apply autofire, invert axis, tweak axis sensitivity, emulate throttle and rudder controls and send macros.
+
+Additionally, xboxdrv can also be used for other gamepad to mimic x360 gamepad, which is required for some games.
+
+The good news is xboxdrv is included in its last version on Ubuntu 14.04. The bad news: the installed package has only the driver included, with no additional configuration.
+
+This package adds additional configurations over xboxdrv:
+
 - It cleans broken configurations;
 - Properly configure a daemon;
 - Manage xboxdrv daemon on System suspend/resume;
