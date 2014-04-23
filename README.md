@@ -56,7 +56,7 @@ rm -Rf ../ubuntu-xboxdrv_*
 **Step 3** - Create source for the packages
 
 ```term
-dh_make -s --indep --createorig --yes -p ubuntu-xboxdrv_<version>
+dh_make -s --indep --createorig --yes -c gpl3 -p ubuntu-xboxdrv_<version>
 ```
 
 **Step 4** - Create `.changes` to send to Launchpad
