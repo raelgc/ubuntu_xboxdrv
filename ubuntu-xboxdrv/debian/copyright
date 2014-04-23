@@ -1,14 +1,14 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ubuntu-xboxdrv
-Source: <url://example.com>
+Source: https://github.com/raelgc/ubuntu_xboxdrv
 
 Files: *
-Copyright: <years> <put author's name and email here>
+Copyright: 2014 Rael Gugelmin Cunha <rael.gc@gmail.com>
            <years> <likewise for another author>
 License: GPL-3.0+
 
 Files: debian/*
-Copyright: 2014 rael <rael.gc@gmail.com>
+Copyright: 2014 Rael Gugelmin Cunha <rael.gc@gmail.com>
 License: GPL-3.0+
 
 License: GPL-3.0+

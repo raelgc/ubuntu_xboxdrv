@@ -12,7 +12,7 @@ Package: ubuntu-xboxdrv
 Architecture: all
 Depends: xboxdrv, jstest-gtk
 Breaks: xpad
-Description: Creates a xboxdrv deaemon and Joysticks in System Settings
+Description: Creates a xboxdrv daemon and Joysticks in System Settings
  xboxdrv is installed in Ubuntu without proper daemon configuration.
  This package creates a proper daemon and an entry named "Joystick"
  under Unity System Settings.

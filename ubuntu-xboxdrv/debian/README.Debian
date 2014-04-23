@@ -1,4 +1,4 @@
-ubuntu-xboxdrv for Debian
+ubuntu-xboxdrv for Debian/Ubuntu
 -------------------------
 
 ubuntu-xboxdrv creates a proper daemon for xboxdrv in Ubuntu, and add a "Joysticks" entry into System Settings.

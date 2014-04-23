@@ -22,6 +22,8 @@ case "$1" in
     configure)
         # Update entries in System Settings
         update-desktop-database
+        # Creating an /etc/init.d entry to enable auto completion
+        ln -sf /etc/init/xboxdrv.conf /etc/init.d/xboxdrv
         # Start xboxdrv daemon
         service xboxdrv start
     ;;
