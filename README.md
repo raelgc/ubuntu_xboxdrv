@@ -50,7 +50,7 @@ git clone git@github.com:raelgc/ubuntu_xboxdrv.git
 **Step 2** - Enter project and remove old stuff
 
 ```term
-cd ubuntu-xboxdrv
+cd src
 rm -Rf ../ubuntu-xboxdrv_*
 ```
 **Step 3** - Create source for the packages
