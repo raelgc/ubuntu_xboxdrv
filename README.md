@@ -10,6 +10,7 @@ This package adds additional configurations over xboxdrv:
 - It cleans broken configurations;
 - Properly configure a daemon;
 - Manage xboxdrv daemon on System suspend/resume;
+- Add support for user options at /etc/default/xboxdrv;
 - Add a "Joysticks" entry into System Settings panel.
 
 
