@@ -1,0 +1,4 @@
+# Defaults for xboxdrv service
+
+# Additional options that are passed to xboxdrv (see xboxdrv man pages).
+XBOXDRV_OPTIONS=""

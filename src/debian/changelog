@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20140424-1) trusty; urgency=low
+
+  * Adding support for options under /etc/default.
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 24 Apr 2014 23:40:50 -0300
+
 ubuntu-xboxdrv (20140423-1) trusty; urgency=low
 
   * Fixing missing license.
@@ -8,25 +14,25 @@ ubuntu-xboxdrv (20140421-1) trusty; urgency=low
 
   * Fixing typo in package description.
 
- -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 21 Apr 2014 15:13:23 -0300
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 21 Apr 2014 15:13:23 -0300
 
 ubuntu-xboxdrv (20140420-1) trusty; urgency=low
 
   * Enabling autocomplete in sudo service xboxdrv <command>.
 
- -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 20 Apr 2014 15:01:01 -0300
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Sun, 20 Apr 2014 15:01:01 -0300
 
 ubuntu-xboxdrv (20140419-1) trusty; urgency=low
 
   * Fixing resume/suspend script placement.
 
- -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 19 Apr 2014 00:01:34 -0300
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Sat, 19 Apr 2014 00:01:34 -0300
 
 ubuntu-xboxdrv (20140418-1) trusty; urgency=low
 
   * At resume/suspend, restarting xboxdrv daemon.
 
- -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 18 Apr 2014 16:50:40 -0300
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Fri, 18 Apr 2014 16:50:40 -0300
 
 ubuntu-xboxdrv (20140416-1) trusty; urgency=low
 
