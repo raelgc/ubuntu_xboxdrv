@@ -34,9 +34,7 @@ sudo service xboxdrv restart
 
 ## Build Instructions
 
-This is not required to use this package.
-
-These instructions are supposed to debug or compile the package from source.
+This is not required to use this package: these instructions are supposed to debug or compile the package from source.
 
 After clone this repo:
 
