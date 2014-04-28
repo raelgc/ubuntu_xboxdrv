@@ -8,10 +8,12 @@ But while xboxdrv is included in its last version on Ubuntu 14.04, it lacks addi
 This package adds additional configurations over xboxdrv:
 
 - It cleans broken configurations;
-- Properly configure a daemon;
-- Manage xboxdrv daemon on System suspend/resume;
+- Properly configure a upstart service;
+- Manage xboxdrv service on System suspend/resume;
 - Add support for user options at /etc/default/xboxdrv;
-- Add a "Joysticks" entry into System Settings panel.
+- Start with support for 4 joysticks;
+- Add a "Joysticks" entry into System Settings panel;
+- Display a notification on plug/unplug joystick;
 
 
 ## Install
