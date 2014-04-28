@@ -8,10 +8,12 @@ But while xboxdrv is included in its last version on Ubuntu 14.04, it lacks addi
 This package adds additional configurations over xboxdrv:
 
 - It cleans broken configurations;
-- Properly configure a daemon;
-- Manage xboxdrv daemon on System suspend/resume;
+- Properly configure a upstart service;
+- Manage xboxdrv service on System suspend/resume;
 - Add support for user options at /etc/default/xboxdrv;
-- Add a "Joysticks" entry into System Settings panel.
+- Start with support for 4 joysticks;
+- Add a "Joysticks" entry into System Settings panel;
+- Display a notification on plug/unplug joystick;
 
 
 ## Install
@@ -32,29 +34,8 @@ The `xboxdrv` job is already started when the package is installed. But, if for 
 sudo service xboxdrv restart
 ```
 
-## Build Instructions
+## Configurations Options
 
-This is not required to use this package: these instructions are supposed to debug or compile the package from source.
+You can edit `/etc/default/xboxdrv` and add more configurations to `xboxdrv`.
 
-After clone this repo:
-
-```term
-cd src
-rm -Rf ../ubuntu-xboxdrv_*
-dh_make -s --indep --createorig --yes -c gpl3 -p ubuntu-xboxdrv_<version>
-debuild -S -sa
-```
-
-## Troubleshooting
-
-If you want only create a `.deb` file, after Build Instructions:
-
-```term
-debuild -us -uc
-```
-
-If you're trying to build the `.changes` file using the source code from Launchpad with your gpg key, use:
-
-```term
-debuild -S -rfakeroot -k<your_gpg_key_id>
-```
+To see a list of available configurations, please, check `xboxdrv` [options page](http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html).
