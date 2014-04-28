@@ -7,7 +7,7 @@ But while xboxdrv is included in its last version on Ubuntu 14.04, it lacks addi
 
 This package adds additional configurations over xboxdrv:
 
-- It cleans broken configurations;
+- Clear broken configurations;
 - Properly configure a upstart service;
 - Manage xboxdrv service on System suspend/resume;
 - Add support for user options at /etc/default/xboxdrv;
