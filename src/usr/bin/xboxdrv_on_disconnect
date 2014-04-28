@@ -1,0 +1,6 @@
+if [ -z "$1" ]
+  then
+    echo "No argument supplied"
+  else 
+    notify-send "<b>Joystick Disconnected</b>" "Joystick disconnected from device $1" -i jstest-gtk
+fi

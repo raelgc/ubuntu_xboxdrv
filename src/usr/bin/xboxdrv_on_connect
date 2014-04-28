@@ -1,0 +1,6 @@
+if [ -z "$1" ]
+  then
+    echo "No argument supplied"
+  else 
+    notify-send "<b>Joystick Connected</b>" "New joystick connected at device $1" -i jstest-gtk
+fi

@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20140427-1) trusty; urgency=low
+
+  * Adding support for multiple controllers.
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Sun, 24 Apr 2014 23:24:50 -0300
+
 ubuntu-xboxdrv (20140424-1) trusty; urgency=low
 
   * Adding support for options under /etc/default.
