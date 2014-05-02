@@ -1,4 +1,0 @@
-etc/init/xboxdrv.conf etc/init
-etc/default/xboxdrv /etc/default
-etc/pm/sleep.d/xboxdrv /etc/pm/sleep.d
-usr/share/applications/unity-joystick-panel.desktop usr/share/applications
