@@ -1,3 +1,4 @@
+etc/dbus-1/system.d/org.seul.Xboxdrv.conf etc/dbus-1/system.d
 etc/init/xboxdrv.conf etc/init
 etc/default/xboxdrv etc/default
 etc/pm/sleep.d/xboxdrv /etc/pm/sleep.d
