@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20140526-1) trusty; urgency=low
+
+  * Enabling dbus integration.
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 26 May 2014 13:22:32 -0300
+
 ubuntu-xboxdrv (20140428-1) trusty; urgency=low
 
   * Removing attempt to raise a global notification.
