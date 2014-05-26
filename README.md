@@ -13,7 +13,7 @@ This package adds additional configurations over xboxdrv:
 - Add support for user options at /etc/default/xboxdrv;
 - Start with support for 4 joysticks;
 - Add a "Joysticks" entry into System Settings panel;
-- Enable dbus integrations.
+- Enable dbus integration.
 
 
 ## Install
