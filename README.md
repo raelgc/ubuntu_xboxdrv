@@ -12,8 +12,7 @@ This package adds additional configurations over xboxdrv:
 - Manage xboxdrv service on System suspend/resume;
 - Add support for user options at /etc/default/xboxdrv;
 - Start with support for 4 joysticks;
-- Add a "Joysticks" entry into System Settings panel;
-- Enable dbus integration.
+- Add a "Joysticks" entry into System Settings panel.
 
 
 ## Install
