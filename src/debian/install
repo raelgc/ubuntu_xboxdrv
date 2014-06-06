@@ -1,6 +1,7 @@
 etc/dbus-1/system.d/org.seul.Xboxdrv.conf etc/dbus-1/system.d
-etc/init/xboxdrv.conf etc/init
 etc/default/xboxdrv etc/default
+etc/init/xboxdrv.conf etc/init
+etc/modprobe.d/xboxdrv.conf etc/modprobe.d
 etc/pm/sleep.d/xboxdrv /etc/pm/sleep.d
 usr/share/applications/unity-joystick-panel.desktop usr/share/applications
 

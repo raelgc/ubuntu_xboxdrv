@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20140605-1) trusty; urgency=low
+
+  * Fixing xpad module conflict
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Fri, 06 Jun 2014 09:37:27 -0300
+
 ubuntu-xboxdrv (20140529-1) trusty; urgency=low
 
   * Disabling again dbus integration.
