@@ -38,3 +38,11 @@ sudo service xboxdrv restart
 You can edit `/etc/default/xboxdrv` and add more configurations to `xboxdrv`.
 
 To see a list of available configurations, please, check `xboxdrv` [options page](http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html).
+
+## Uninstall
+
+To uninstall, please use `purge` to remove the `xpad` stock driver from blacklist:
+
+```term
+sudo apt-get purge ubuntu-xboxdrv
+```
