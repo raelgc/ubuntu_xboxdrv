@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20140617-1) trusty; urgency=low
+
+  * Enabling --mimic-xpad and --mimic-xpad-wireless
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Tue, 17 Jun 2014 10:37:13 -0300
+
 ubuntu-xboxdrv (20140605-1) trusty; urgency=low
 
   * Fixing xpad module conflict
