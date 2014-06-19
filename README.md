@@ -12,7 +12,8 @@ This package adds additional configurations over xboxdrv:
 - Manage xboxdrv service on System suspend/resume;
 - Add support for user options at /etc/default/xboxdrv;
 - Start with support for 4 joysticks;
-- Add a "Joysticks" entry into System Settings panel.
+- Add a "Joysticks" entry into System Settings panel;
+- Easy ForceFeeback activation.
 
 
 ## Install
@@ -32,8 +33,15 @@ The `xboxdrv` job is already started when the package is installed. But, if for 
 ```term
 sudo service xboxdrv restart
 ```
+## Force Feedback
 
-## Configurations Options
+To enable force feedback, as `sudo` edit the `/etc/default/xboxdrv` file and change `FORCE_FEEDBACK` to `true`.
+
+Then, restart the service: `sudo service xboxdrv restart`.
+
+**One important note**: force feedback has problems with wine games.
+
+## Additional Configurations Options
 
 You can edit `/etc/default/xboxdrv` and add more configurations to `xboxdrv`.
 
