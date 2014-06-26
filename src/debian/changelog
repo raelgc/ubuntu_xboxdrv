@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20140618-1) trusty; urgency=low
+
+  * Moving mimic-xpad, forcefeedback and trigger-as-button to user options
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 18 Jun 2014 14:11:38 -0300
+
 ubuntu-xboxdrv (20140617-1) trusty; urgency=low
 
   * Enabling --mimic-xpad and --mimic-xpad-wireless
