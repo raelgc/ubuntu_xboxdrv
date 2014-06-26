@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20140626-1) trusty; urgency=low
+
+  * Fixing missing equal sign (=) on /etc/init/xboxdrv.conf
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 26 Jun 2014 09:40:28 -0300
+
 ubuntu-xboxdrv (20140617-1) trusty; urgency=low
 
   * Enabling --mimic-xpad and --mimic-xpad-wireless
