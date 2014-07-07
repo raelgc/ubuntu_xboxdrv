@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20140707-1) trusty; urgency=low
+
+  * Fixing missing options on /etc/init/xboxdrv.conf
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 07 Jul 2014 20:04:28 -0300
+
 ubuntu-xboxdrv (20140626-1) trusty; urgency=low
 
   * Fixing missing equal sign (=) on /etc/init/xboxdrv.conf
