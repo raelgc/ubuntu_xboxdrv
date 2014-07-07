@@ -41,6 +41,10 @@ Then, restart the service: `sudo service xboxdrv restart`.
 
 **One important note**: force feedback has problems with wine games.
 
+## Triggers
+
+By default, triggers are not enabled as z-axis, but as buttons. To change, edit `/etc/defaults/xboxdrv` and change `TRIGGERS_AS_BUTTONS` to `false`.
+
 ## Additional Configurations Options
 
 You can edit `/etc/default/xboxdrv` and add more configurations to `xboxdrv`.
