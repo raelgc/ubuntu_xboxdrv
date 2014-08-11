@@ -1,6 +1,8 @@
 Ubuntu xboxdrv Integration
 ----------------------------
 
+This package provides additional configurations over [`xboxdrv`](http://pingus.seul.org/~grumbel/xboxdrv/) driver.
+
 Unlike stock xpad kernel driver, [`xboxdrv`](http://pingus.seul.org/~grumbel/xboxdrv/) provides a wide variety of configuration options: it allows you to simulate keyboard and mouse events, remap buttons and axes, apply autofire, invert axis, tweak axis sensitivity, emulate throttle and rudder controls and send macros.
 
 But while xboxdrv is included in its last version on Ubuntu 14.04, it lacks additional configuration to get it properly working.
@@ -18,7 +20,7 @@ This package adds additional configurations over xboxdrv:
 
 ## Install
 
-If you want just use this package:
+To install (and automatically) start this service, open a terminal and run:
 
 ```term
 sudo apt-add-repository -y ppa:rael-gc/ubuntu-xboxdrv
