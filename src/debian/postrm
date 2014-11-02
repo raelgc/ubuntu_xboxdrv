@@ -22,7 +22,9 @@ set -e
 case "$1" in
     purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
         # Updating System Settings after removal
-        update-desktop-database
+        if (which update-desktop-database); then
+            update-desktop-database
+        fi
         # Removing symlink from /etc/init.d folder
         rm -f /etc/init.d/xboxdrv
     ;;
