@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20141113-1) trusty; urgency=low
+
+  * Fixing typo on service init: "detache"
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 13 Nov 2014 09:43:22 -0200
+
 ubuntu-xboxdrv (20141112-1) trusty; urgency=low
 
   * Fixing #22: Repeat default options for all controllers
