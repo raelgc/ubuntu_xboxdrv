@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20141112-1) trusty; urgency=low
+
+  * Fixing #22: Repeat default options for all controllers
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 12 Nov 2014 21:35:54 -0200
+
 ubuntu-xboxdrv (20141102-1) trusty; urgency=low
 
   * Checking presence of update-desktop-database
