@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20141231-1) trusty; urgency=low
+
+  * Fixes #24: Replacing power management command
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 29 Dec 2014 11:21:28 -0200
+
 ubuntu-xboxdrv (20141230-1) trusty; urgency=low
 
   * Fixes #24: Fixing `ps` command to ignore `grep`
