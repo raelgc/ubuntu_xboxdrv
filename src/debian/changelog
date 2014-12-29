@@ -1,3 +1,21 @@
+ubuntu-xboxdrv (20141231-1) trusty; urgency=low
+
+  * Fixes #24: Replacing power management command
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 29 Dec 2014 11:21:28 -0200
+
+ubuntu-xboxdrv (20141230-1) trusty; urgency=low
+
+  * Fixes #24: Fixing `ps` command to ignore `grep`
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 29 Dec 2014 10:00:18 -0200
+
+ubuntu-xboxdrv (20141229-1) trusty; urgency=low
+
+  * Fixes #24: Suspends can fail when package is installed
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 29 Dec 2014 09:18:43 -0200
+
 ubuntu-xboxdrv (20141113-1) trusty; urgency=low
 
   * Fixing typo on service init: "detache"
