@@ -4,12 +4,9 @@
 
 case $1 in
      suspend|suspend_hybrid|hibernate)
-        if ps -d | grep "xboxdrv" > /dev/null
-        then
-            service xboxdrv stop
-        fi
+	stop -q xboxdrv || :
         ;;
      resume|thaw)
-	service xboxdrv restart
+	start -q xboxdrv || :
         ;;
 esac
