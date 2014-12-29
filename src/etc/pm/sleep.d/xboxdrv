@@ -4,7 +4,7 @@
 
 case $1 in
      suspend|suspend_hybrid|hibernate)
-        if ps aux | grep "xboxdrv" > /dev/null
+        if ps -d | grep "xboxdrv" > /dev/null
         then
             service xboxdrv stop
         fi
