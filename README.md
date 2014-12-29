@@ -57,9 +57,7 @@ To see a list of available configurations, please, check `xboxdrv` [options page
 
 Some games supports only the X360 gamepad, but `xboxdrv` can force system to get Playstation 3 dualshock recognized as a X360 gamepad.
 
-But with current Ubuntu kernel version (`3.13.0-29`) this is not properly working. The solution is to upgrade the kernel.
-
-On [issue #11](https://github.com/raelgc/ubuntu_xboxdrv/issues/11) the kernel version `3.13.11-031311`  was reported to get the PS3 dualshock properly working.
+If you'll connect by wireless (i.e., not wired by USB), please, first pair your dualshock by Bluetooth.
 
 ## Uninstall
 
