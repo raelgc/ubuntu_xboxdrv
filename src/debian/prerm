@@ -19,10 +19,8 @@ set -e
 
 case "$1" in
     remove|upgrade|deconfigure)
-        if ps -d | grep "xboxdrv" > /dev/null
-        then
-            service xboxdrv stop
-        fi
+        # Silently stoping the service
+        stop -q xboxdrv || :
     ;;
 
     failed-upgrade)

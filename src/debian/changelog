@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20150105-1) trusty; urgency=low
+
+  * Fixes #25: Silently stopping the service on package remove
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 05 Jan 2015 09:38:21 -0200
+
 ubuntu-xboxdrv (20141231-1) trusty; urgency=low
 
   * Fixes #24: Replacing power management command
