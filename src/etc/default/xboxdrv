@@ -20,9 +20,9 @@ SEPERATE_CONTROLLER_SLOT_OPTIONS=false
 # If this is selected nothing is entered, the unmodified slots  
 # will default to the options in XBOXDRV_OPTIONS, or will not be
 # configured at all.
-CONTROLLER1_OPTIONS=""                                                                                                                                                                                                                         
+CONTROLLER0_OPTIONS=""                                                                                                                                                                                                                         
+CONTROLLER1_OPTIONS=""
 CONTROLLER2_OPTIONS=""
 CONTROLLER3_OPTIONS=""
-CONTROLLER4_OPTIONS=""
 
 # EOF #
