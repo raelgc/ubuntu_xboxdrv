@@ -10,19 +10,12 @@ TRIGGER_AS_BUTTON=true
 MIMIC_XPAD=true
 
 # Additional options that are passed to xboxdrv (see xboxdrv man pages).
-# These settings are applied to all controller slots
+# These are appended once during start
 XBOXDRV_OPTIONS=""
 
-# Use seperate controller slot options
-SEPERATE_CONTROLLER_SLOT_OPTIONS=false
-
 # Edit each block to give each controller slot its own options.
-# If this is selected nothing is entered, the unmodified slots  
-# will default to the options in XBOXDRV_OPTIONS, or will not be
-# configured at all.
+# These are appended last for their respective slots
 CONTROLLER0_OPTIONS=""                                                                                                                                                                                                                         
 CONTROLLER1_OPTIONS=""
 CONTROLLER2_OPTIONS=""
 CONTROLLER3_OPTIONS=""
-
-# EOF #
