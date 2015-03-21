@@ -19,3 +19,6 @@ CONTROLLER0_OPTIONS=""
 CONTROLLER1_OPTIONS=""
 CONTROLLER2_OPTIONS=""
 CONTROLLER3_OPTIONS=""
+
+# This corresponds to the number of physical controllers you have plugged in.
+XBOXDRV_INSTANCES=1
