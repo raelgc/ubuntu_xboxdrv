@@ -1,4 +1,6 @@
+##########################################################################
 # Defaults for xboxdrv service
+# -Applied to all instances
 
 # If enabled, can present problems on wine games
 FORCE_FEEDBACK=false
@@ -10,15 +12,24 @@ TRIGGER_AS_BUTTON=true
 MIMIC_XPAD=true
 
 # Additional options that are passed to xboxdrv (see xboxdrv man pages).
-# These are appended once during start
+# These are appended first during start
 XBOXDRV_OPTIONS=""
 
-# Edit each block to give each controller slot its own options.
-# These are appended last for their respective slots
-CONTROLLER0_OPTIONS=""                                                                                                                                                                                                                         
-CONTROLLER1_OPTIONS=""
-CONTROLLER2_OPTIONS=""
-CONTROLLER3_OPTIONS=""
+##########################################################################
 
-# This corresponds to the number of physical controllers you have plugged in.
-XBOXDRV_INSTANCES=1
+# Edit each block to give each controller slot its own options.
+# These are appended last, each to their own instance of xboxdrv
+# Config slots are okay, however use of controller slots in these fields
+# -may cause undesired behavior
+CONTROLLER0_OPTIONS="--config /home/greg/.config/xboxdrv/controller-default.xboxdrv"                                                                                                                                                                                                                         
+CONTROLLER1_OPTIONS=
+CONTROLLER2_OPTIONS=
+CONTROLLER3_OPTIONS=
+##########################################################################
+
+# Fields for usbid of your controllers (format: CONTROLLERx="vendor:product")
+# Used to limit each instance to a designated controller
+CONTROLLER1="045e:028e"
+CONTROLLER2="1bad:0002"
+CONTROLLER3=
+CONTROLLER4=
