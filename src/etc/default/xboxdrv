@@ -14,17 +14,17 @@ XBOXDRV_OPTIONS=""
 # Edit each block to give each controller slot its own options.
 # These are appended last, each to their own instance of xboxdrv.
 # Config slots are okay, however use of controller slots in these fields
-# -may cause undesired behavior
+# -may cause undesired behavior. use double qoutes.
 
-CONTROLLER1_OPTIONS="--config /home/greg/.config/xboxdrv/controller-default.xboxdrv"
-CONTROLLER2_OPTIONS="--ui-buttonmap du=KEY_UP dd=KEY_DOWN dl=KEY_LEFT dr=KEY_RIGHT start=KEY_ENTER"
+CONTROLLER1_OPTIONS=
+CONTROLLER2_OPTIONS=
 CONTROLLER3_OPTIONS=
 CONTROLLER4_OPTIONS=
 
 ##########################################################################
 # Enter the device "vendor:product" keys of your chosen controllers to
-# - enable matching on device added
-CONTROLLER1="045e:028e"
-CONTROLLER2="1bad:0002"
+# - enable matching on device added. use double quotes.
+CONTROLLER1=
+CONTROLLER2=
 CONTROLLER3=
 CONTROLLER4=
