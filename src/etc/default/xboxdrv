@@ -1,21 +1,28 @@
+##########################################################################
 # Defaults for xboxdrv service
-
+# -Applied to all instances
 # If enabled, can present problems on wine games
 FORCE_FEEDBACK=false
 
-# Make triggers work like buttons instead of zaxis
-TRIGGER_AS_BUTTON=true
-
 # Mimic xpad buttons
-MIMIC_XPAD=true
+MIMIC_XPAD=false
 
 # Additional options that are passed to xboxdrv (see xboxdrv man pages).
-# These are appended once during start
+# These are appended first during start
 XBOXDRV_OPTIONS=""
-
+##########################################################################
 # Edit each block to give each controller slot its own options.
-# These are appended last for their respective slots
-CONTROLLER0_OPTIONS=""                                                                                                                                                                                                                         
-CONTROLLER1_OPTIONS=""
-CONTROLLER2_OPTIONS=""
-CONTROLLER3_OPTIONS=""
+# These are appended last to their respective instance of xboxdrv.
+# Config slots are okay, however use of controller slots in these fields
+# -may cause undesired behavior. NOTE: need to be enclosed in double quotes
+CONTROLLER1_OPTIONS=
+CONTROLLER2_OPTIONS=
+CONTROLLER3_OPTIONS=
+CONTROLLER4_OPTIONS=
+
+##########################################################################
+# Enter the device product:vendor keys of your controllers (ex 045e:028e)
+CONTROLLER1=
+CONTROLLER2=
+CONTROLLER3=
+CONTROLLER4=

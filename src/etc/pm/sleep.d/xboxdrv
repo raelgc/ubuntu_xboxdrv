@@ -4,9 +4,9 @@
 
 case $1 in
      suspend|suspend_hybrid|hibernate)
-	stop -q xboxdrv || :
+	stop -q ubuntu-xboxdrv || :
         ;;
      resume|thaw)
-	start -q xboxdrv || :
+	start -q ubuntu-xboxdrv || :
         ;;
 esac
