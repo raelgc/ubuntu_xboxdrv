@@ -2,7 +2,7 @@
 Description=Xbox controller driver daemon
  
 [Service]
-Type=forking
+Type=simple
 User=root
 PIDFile=/var/run/xboxdrv.pid
 ExecStartPre=/usr/share/ubuntu-xboxdrv/xboxdrv-pre
