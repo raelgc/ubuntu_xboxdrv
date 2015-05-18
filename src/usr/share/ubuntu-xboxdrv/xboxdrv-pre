@@ -37,10 +37,10 @@ PAD_OPTIONS="$PAD_OPTIONS --detach-kernel-driver"
 
 cp /usr/share/ubuntu-xboxdrv/uxvars /usr/share/ubuntu-xboxdrv/uxvars.bak
 echo XBOXDRV_OPTIONS="$XBOXDRV_OPTIONS" > /usr/share/ubuntu-xboxdrv/uxvars
-echo CONTROLLER0_OPTIONS="$CONTROLLER0_OPTIONS" > /usr/share/ubuntu-xboxdrv/uxvars
-echo CONTROLLER1_OPTIONS="$CONTROLLER1_OPTIONS" > /usr/share/ubuntu-xboxdrv/uxvars
-echo CONTROLLER2_OPTIONS="$CONTROLLER2_OPTIONS" > /usr/share/ubuntu-xboxdrv/uxvars
-echo CONTROLLER3_OPTIONS="$CONTROLLER3_OPTIONS" > /usr/share/ubuntu-xboxdrv/uxvars
-echo PAD_OPTIONS="$PAD_OPTIONS" > /usr/share/ubuntu-xboxdrv/uxvars
+echo CONTROLLER0_OPTIONS="$CONTROLLER0_OPTIONS" >> /usr/share/ubuntu-xboxdrv/uxvars
+echo CONTROLLER1_OPTIONS="$CONTROLLER1_OPTIONS" >> /usr/share/ubuntu-xboxdrv/uxvars
+echo CONTROLLER2_OPTIONS="$CONTROLLER2_OPTIONS" >> /usr/share/ubuntu-xboxdrv/uxvars
+echo CONTROLLER3_OPTIONS="$CONTROLLER3_OPTIONS" >> /usr/share/ubuntu-xboxdrv/uxvars
+echo PAD_OPTIONS="$PAD_OPTIONS" >> /usr/share/ubuntu-xboxdrv/uxvars
 
 
