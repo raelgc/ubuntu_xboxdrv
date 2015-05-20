@@ -3,6 +3,6 @@ etc/default/xboxdrv etc/default
 etc/modprobe.d/xboxdrv.conf etc/modprobe.d
 etc/pm/sleep.d/xboxdrv etc/pm/sleep.d
 usr/share/applications/unity-joystick-panel.desktop usr/share/applications
-src/lib/systemd/system/xboxdrv.service src/lib/systemd/system
-src/usr/share/ubuntu-xboxdrv/uxvars src/usr/share/ubuntu-xboxdrv
-src/usr/share/ubuntu-xboxdrv/xboxdrv-pre src/usr/share/ubuntu-xboxdrv
+lib/systemd/system/xboxdrv.service lib/systemd/system
+usr/share/ubuntu-xboxdrv/uxvars usr/share/ubuntu-xboxdrv
+usr/share/ubuntu-xboxdrv/xboxdrv-pre usr/share/ubuntu-xboxdrv
