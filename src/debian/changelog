@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20150520-3) vivid; urgency=low
+
+  * Fixing SystemD issues (#39)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 20 May 2015 09:24:33 -0300
+
 ubuntu-xboxdrv (20150520-2) vivid; urgency=low
 
   * Fixing SystemD issues (#39)
