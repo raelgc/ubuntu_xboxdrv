@@ -4,9 +4,9 @@
 
 case $1 in
      suspend|suspend_hybrid|hibernate)
-	stop -q xboxdrv || :
+	systemctl stop xboxdrv || :
         ;;
      resume|thaw)
-	start -q xboxdrv || :
+	systemctl start xboxdrv || :
         ;;
 esac
