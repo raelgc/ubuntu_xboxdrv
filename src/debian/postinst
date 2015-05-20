@@ -20,14 +20,8 @@ set -e
 
 case "$1" in
     configure)
-        # Update entries in System Settings
-        if (which update-desktop-database); then
-            update-desktop-database
-        fi
-        # Creating an /etc/init.d entry to enable auto completion
-        ln -sf /etc/init/xboxdrv.conf /etc/init.d/xboxdrv
         # Start xboxdrv daemon
-        service xboxdrv start
+        systemctl start xboxdrv
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

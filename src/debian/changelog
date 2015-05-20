@@ -1,3 +1,21 @@
+ubuntu-xboxdrv (20150520-2) vivid; urgency=low
+
+  * Fixing SystemD issues (#39)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 20 May 2015 09:24:33 -0300
+
+ubuntu-xboxdrv (20150520-1) vivid; urgency=low
+
+  * SystemD support (Fixes #4, #38, #39)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 20 May 2015 09:24:33 -0300
+
+ubuntu-xboxdrv (20150319-1) trusty; urgency=low
+
+  * Fixes #31: Add separate slot config for each controller
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 19 Mar 2015 13:22:31 -0200
+
 ubuntu-xboxdrv (20150105-1) trusty; urgency=low
 
   * Fixes #25: Silently stopping the service on package remove

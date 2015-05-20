@@ -20,7 +20,7 @@ set -e
 case "$1" in
     remove|upgrade|deconfigure)
         # Silently stoping the service
-        stop -q xboxdrv || :
+        systemctl stop xboxdrv || :
     ;;
 
     failed-upgrade)
