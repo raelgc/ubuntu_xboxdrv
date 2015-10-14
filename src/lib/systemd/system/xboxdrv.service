@@ -7,7 +7,7 @@ User=root
 PIDFile=/var/run/xboxdrv.pid
 ExecStartPre=/usr/share/ubuntu-xboxdrv/xboxdrv-pre
 EnvironmentFile=/usr/share/ubuntu-xboxdrv/uxvars
-ExecStart=/usr/bin/xboxdrv --daemon --silent --pid-file /var/run/xboxdrv.pid --dbus disabled $XBOXDRV_OPTIONS $PAD_OPTIONS $CONTROLLER0_OPTIONS --next-controller $PAD_OPTIONS $CONTROLLER1_OPTIONS --next-controller $PAD_OPTIONS $CONTROLLER2_OPTIONS--next-controller $PAD_OPTIONS $CONTROLLER3_OPTIONS
+ExecStart=/usr/bin/xboxdrv --daemon --silent --pid-file /var/run/xboxdrv.pid --dbus disabled $XBOXDRV_OPTIONS $PAD_OPTIONS $CONTROLLER0_OPTIONS --next-controller $PAD_OPTIONS $CONTROLLER1_OPTIONS --next-controller $PAD_OPTIONS $CONTROLLER2_OPTIONS --next-controller $PAD_OPTIONS $CONTROLLER3_OPTIONS
  
 [Install]
 WantedBy=multi-user.target
