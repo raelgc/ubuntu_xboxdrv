@@ -46,7 +46,8 @@ Then, restart the service: `sudo service xboxdrv restart`.
 ## Triggers
 
 By default, triggers are not enabled as z-axis, but as buttons. To change, edit `/etc/default/xboxdrv` and change `TRIGGERS_AS_BUTTONS` to `false`.
-If you intend to use XBMC (at least verison 13), set it to `false`. Maybe this option should also be `false` for Kodi 14 and 15.
+
+If you intend to use XBMC (at least version 13), set `TRIGGERS_AS_BUTTONS` to `false`. Maybe this option should also be `false` for Kodi 14 and 15.
 
 ## Additional Configurations Options
 
