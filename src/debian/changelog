@@ -1,14 +1,39 @@
-ubuntu-xboxdrv (20150520-3) vivid; urgency=low
+ubuntu-xboxdrv (20151026-1) vivid; urgency=low
+
+  * Several small fixes
+  * Space missing in systemd service config (#45)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 26 Oct 2015 08:55:56 -0200
+
+ubuntu-xboxdrv (20150523-1) vivid; urgency=low
 
   * Fixing SystemD issues (#39)
 
- -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 20 May 2015 09:24:33 -0300
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Fri, 22 May 2015 08:37:08 -0300
+
+ubuntu-xboxdrv (20150522) vivid; urgency=low
+
+  * Fixing SystemD issues (#39)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Fri, 22 May 2015 08:35:10 -0300
+
+ubuntu-xboxdrv (20150521-2) vivid; urgency=low
+
+  * Fixing SystemD issues (#39)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 21 May 2015 09:02:10 -0300
+
+ubuntu-xboxdrv (20150521-1) vivid; urgency=low
+
+  * Fixing SystemD issues (#39)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 21 May 2015 08:10:25 -0300
 
 ubuntu-xboxdrv (20150520-2) vivid; urgency=low
 
   * Fixing SystemD issues (#39)
 
- -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 20 May 2015 09:24:33 -0300
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 20 May 2015 10:24:33 -0300
 
 ubuntu-xboxdrv (20150520-1) vivid; urgency=low
 
