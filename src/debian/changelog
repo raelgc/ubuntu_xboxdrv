@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20160113-1) trusty; urgency=low
+
+  * Fixes #51: Missing space in /etc/init.d/xboxdrv
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 13 Jan 2016 14:49:31 -0200
+
 ubuntu-xboxdrv (20150105-1) trusty; urgency=low
 
   * Fixes #25: Silently stopping the service on package remove
