@@ -20,10 +20,10 @@ set -e
 
 case "$1" in
     configure)
-        # Start xboxdrv daemon
-        systemctl start xboxdrv
         # Enable start on boot
         systemctl enable xboxdrv.service
+        # Start xboxdrv daemon
+        systemctl start xboxdrv
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
