@@ -1,3 +1,9 @@
+ubuntu-xboxdrv (20161201-1) xenial; urgency=low
+
+  * Fixing service post install (#57)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 01 Dec 2016 17:56:11 -0200
+
 ubuntu-xboxdrv (20151026-1) vivid; urgency=low
 
   * Several small fixes
