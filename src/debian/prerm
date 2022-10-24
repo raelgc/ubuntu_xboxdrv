@@ -21,6 +21,7 @@ case "$1" in
     remove|upgrade|deconfigure)
         # Silently stoping the service
         systemctl stop xboxdrv || :
+        rm /etc/modprobe.d/xboxdrv.conf
     ;;
 
     failed-upgrade)
