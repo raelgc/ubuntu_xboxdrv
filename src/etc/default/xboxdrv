@@ -3,7 +3,7 @@
 # If enabled, can present problems on wine games
 FORCE_FEEDBACK=false
 
-# Make triggers work like buttons instead of zaxis
+# Make triggers work like buttons instead of zaxis (disable this for XBMC version 13)
 TRIGGER_AS_BUTTON=true
 
 # Mimic xpad buttons
